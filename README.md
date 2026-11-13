@@ -32,7 +32,7 @@ Folder: [`Task1_Iris_Classification`](Task1_Iris_Classification)
 
 ## Task 2: California Housing Price Prediction
 
-## Task 2: Predict median house values and compare OLS, Ridge (L2) and Lasso (L1) regression using RMSE, MAE and R².
+### Task 2: Predict median house values and compare OLS, Ridge (L2) and Lasso (L1) regression using RMSE, MAE and R².
 
 
 - Imputed missing values (`total_bedrooms`) with the median
