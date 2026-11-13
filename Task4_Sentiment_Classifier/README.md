@@ -149,7 +149,4 @@ In a sample run on that larger corpus, Logistic Regression scored slightly highe
 - Compare against other models (Linear SVM, Random Forest) or a transformer such as DistilBERT.
 - Wrap `predict_sentiment()` in a simple web app with Streamlit or Flask.
 
-## License
-
-This project was created for educational purposes as part of an internship assignment.
 
