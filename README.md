@@ -28,3 +28,28 @@ and virginica, whose measurements overlap. The accuracy gap is only one test
 sample, so the models perform comparably.
 
 Folder: [`Task1_Iris_Classification`](Task1_Iris_Classification)
+
+
+## Task 2: California Housing Price Prediction
+
+## Task 2: Predict median house values and compare OLS, Ridge (L2) and Lasso (L1) regression using RMSE, MAE and R².
+
+
+- Imputed missing values (`total_bedrooms`) with the median
+- Checked multicollinearity with a correlation heatmap and VIF
+- Engineered ratio and interaction features
+- Scaled numeric features and one-hot encoded `ocean_proximity`
+- Tuned Ridge and Lasso with `GridSearchCV` over multiple alphas
+- Plotted predicted vs actual values and residual distributions
+
+**Results:**
+
+| Model | RMSE | MAE | R² |
+|-------|------|-----|----|
+| OLS   | ~68,500 | ~49,200 | ~0.64 |
+| Ridge | ~68,500 | ~49,200 | ~0.64 |
+| Lasso | ~68,700 | ~49,300 | ~0.64 |
+
+All three models perform almost the same. Little regularization was needed, and the main limit is that linear models can't capture the non-linear patterns in the data.
+
+Folder: [California_Housing_Regression.ipynb](./Task_2_California_Housing/California_Housing_Regression.ipynb)
