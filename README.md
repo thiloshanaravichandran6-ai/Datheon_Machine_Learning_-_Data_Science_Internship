@@ -73,5 +73,5 @@ Classify customer product and movie reviews as positive or negative using TF-IDF
  
 Both models perform similarly, with Logistic Regression slightly ahead. The provided dataset has only a handful of reviews, so its scores vary a lot, and the main limit is that bag-of-words models can't handle sarcasm or complex context.
  
-Folder: [`Task4_Sentiment_Classifier`](Task3_Sentiment_Classifier)
+Folder: [`Task3_Sentiment_Classifier`](Task4_Sentiment_Classifier)
  
