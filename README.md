@@ -52,8 +52,7 @@ Folder: [`Task1_Iris_Classification`](Task1_Iris_Classification)
 
 All three models perform almost the same. Little regularization was needed, and the main limit is that linear models can't capture the non-linear patterns in the data.
 
-Folder: Task2_California_Housing_Regression
-
+Folder: [`Task2_California_Housing_Regression`](Task1_California_Housing_Regression)
 
 ### Task 3: Sentiment Analysis Classifier
  
@@ -74,5 +73,5 @@ Classify customer product and movie reviews as positive or negative using TF-IDF
  
 Both models perform similarly, with Logistic Regression slightly ahead. The provided dataset has only a handful of reviews, so its scores vary a lot, and the main limit is that bag-of-words models can't handle sarcasm or complex context.
  
-Folder: /Task4_Sentiment_Classifier.ipynb
+Folder: [`Task3_Sentiment_Classifier`](Task3_Sentiment_Classifier)
  
