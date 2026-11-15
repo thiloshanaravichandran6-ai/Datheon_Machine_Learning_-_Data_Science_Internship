@@ -53,3 +53,26 @@ Folder: [`Task1_Iris_Classification`](Task1_Iris_Classification)
 All three models perform almost the same. Little regularization was needed, and the main limit is that linear models can't capture the non-linear patterns in the data.
 
 Folder: [California_Housing_Regression.ipynb](./Task_2_California_Housing/California_Housing_Regression.ipynb)
+
+
+## Task 1: Sentiment Analysis Classifier
+ 
+Classify customer product and movie reviews as positive or negative using TF-IDF features, comparing Multinomial Naive Bayes and Logistic Regression.
+ 
+- Removed HTML tags, punctuation and stopwords (negation words like "not" kept)
+- Lowercased, tokenized and lemmatized the text
+- Converted text to TF-IDF vectors (`max_features=5000`, unigrams + bigrams)
+- Trained Multinomial Naive Bayes and Logistic Regression
+- Evaluated with accuracy, F1, confusion matrix and cross-validation
+- Built a `predict_sentiment()` helper and an interactive tester for custom phrases
+**Results** (larger 2,000-review benchmark; the provided CSV is too small for reliable scores):
+ 
+| Model | Accuracy | F1 (macro) |
+|---|---|---|
+| Multinomial Naive Bayes | ~83% | ~0.83 |
+| Logistic Regression | ~85% | ~0.85 |
+ 
+Both models perform similarly, with Logistic Regression slightly ahead. The provided dataset has only a handful of reviews, so its scores vary a lot, and the main limit is that bag-of-words models can't handle sarcasm or complex context.
+ 
+**Folder:** `Sentiment_Analysis/sentiment_classifier.ipynb`
+ 
