@@ -55,7 +55,7 @@ All three models perform almost the same. Little regularization was needed, and 
 Folder: [California_Housing_Regression.ipynb](./Task_2_California_Housing/California_Housing_Regression.ipynb)
 
 
-## Task 1: Sentiment Analysis Classifier
+### Task 3: Sentiment Analysis Classifier
  
 Classify customer product and movie reviews as positive or negative using TF-IDF features, comparing Multinomial Naive Bayes and Logistic Regression.
  
