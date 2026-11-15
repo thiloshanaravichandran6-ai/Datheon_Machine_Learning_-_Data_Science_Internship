@@ -52,7 +52,7 @@ Folder: [`Task1_Iris_Classification`](Task1_Iris_Classification)
 
 All three models perform almost the same. Little regularization was needed, and the main limit is that linear models can't capture the non-linear patterns in the data.
 
-Folder: [California_Housing_Regression.ipynb](./Task_2_California_Housing/California_Housing_Regression.ipynb)
+Folder: Task2_California_Housing_Regression
 
 
 ### Task 3: Sentiment Analysis Classifier
